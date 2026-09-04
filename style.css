@@ -22,6 +22,9 @@ article{
     background-color:azure;
     width: 70%;
     float: left;
+    border-radius: 8px;
+    margin: 5;
+    padding: 5px;
 }
 
 aside{
@@ -29,6 +32,9 @@ aside{
     background-color:azure;
     width: 25%;
     float: right;
+    border-radius: 8px;
+    margin: 5;
+    padding: 5px;
 }
 
 footer{
