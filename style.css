@@ -1,3 +1,37 @@
 body{
     background-color: rgb(161, 255, 239);
 }
+
+header{
+    height: 100px;
+    background-color:rgb(65, 238, 209);
+}
+
+nav{
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+main{
+    height: 500px;
+    background-color:rgb(65, 238, 209);
+}
+
+article{
+    height: 450px;
+    background-color:azure;
+    width: 70%;
+    float: left;
+}
+
+aside{
+    height: 150px;
+    background-color:azure;
+    width: 25%;
+    float: right;
+}
+
+footer{
+    height: 200px;
+    background-color:rgb(65, 238, 209);
+}
