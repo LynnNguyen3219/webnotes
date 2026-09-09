@@ -1,43 +1,61 @@
-body{
-    background-color: rgb(161, 255, 239);
-}
+    body{
+        background-color: pink;
+        font-family: Comic Sans MS;
+    }
 
-header{
-    height: 100px;
-    background-color:rgb(65, 238, 209);
-}
+    header{
+        height: 100px;
+        background-color: white;
+        text-align: center;
+        font-size: 60px;
+        margin: 5px;
+        border-radius: 5px;
+    }
 
-nav{
-    height: 25px;
-    background-color: rgb(255, 255, 255);
-}
+    nav{
+        height: 25px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+    }
 
-main{
-    height: 500px;
-    background-color:rgb(65, 238, 209);
-}
+    main{
+        background-color: lightpink;
+        height: 500px;
+    }
 
-article{
-    height: 450px;
-    background-color:azure;
-    width: 70%;
-    float: left;
-    border-radius: 8px;
-    margin: 5;
-    padding: 5px;
-}
+    article{
+        background-color:white;
+        width: 70%;
+        height: 450px;
+        float: left;
+        margin: 10px;
+        border-radius: 15px;
+        text-align:center;
+    }
 
-aside{
-    height: 150px;
-    background-color:azure;
-    width: 25%;
-    float: right;
-    border-radius: 8px;
-    margin: 5;
-    padding: 5px;
-}
+    aside{
+        height: 150px;
+        background-color:rgb(255, 255, 255);
+        width: 25%;
+        float: right;
+        border-radius: 8px;
+        margin: 5;
+        padding: 5px;
+        text-align: center;
+    }
 
-footer{
-    height: 200px;
-    background-color:rgb(65, 238, 209);
-}
+    footer{
+        background-color: white;
+        height: 100px;
+        margin: 5px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    a{
+        color: pink;
+    }
+
+    h1{
+        color: pink;
+    }
