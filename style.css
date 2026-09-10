@@ -22,18 +22,18 @@
 
     main{
         background-color: lightpink;
-        height: 500px;
         border-radius: 15px;
+        display: flex;
     }
 
     article{
         background-color:white;
         width: 70%;
-        height: 450px;
         float: left;
         margin: 10px;
         border-radius: 15px;
         text-align:center;
+        height: fit-content;
     }
 
     aside{
@@ -49,14 +49,10 @@
 
     footer{
         background-color: white;
-        height: 100px;
         margin: 15px;
         border-radius: 5px;
         text-align: center;
-    }
-
-    a{
-        color: pink;
+        height: fit-content;
     }
 
     h1{
@@ -69,4 +65,17 @@
 
     .text {
         font-size: 20px;
+    }
+
+    a:link{
+        border-radius: 4px;
+        background-color: rgb(255, 226, 231);
+        text-decoration: none;
+        color: black;
+        padding-left: 5pt;
+        padding-right: 5pt;
+    }
+
+    a:hover{
+        color: pink;
     }
