@@ -1,19 +1,57 @@
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
         <title>lynns html notes | lists</title>
     </head>
     <body>
-        <header>notes page</header>
-        <nav>
+        <header id="shadow">notes page</header>
+        <nav id="shadow">
             <a href="index.html">home</a> | <a href="images.html">images</a> | <a href="tables.html">tables</a> | <a href="lists.html">lists</a> | <a href="color.html">color</a> | <a href="links.html">links</a> | <a href="odds.html">odds</a> | <a href="forms.html">forms</a>
         </nav>
-        <main>
-            <article>
-                <h1>hello world!</h1>
-                <img src="https://t4.ftcdn.net/jpg/00/06/71/23/360_F_6712397_70crK0Bk0F6rttVV1KPhVayEVIJ3mQLj.jpg"></img>
+        <main id="shadow">
+            <article id="shadow" style="text-align:left; padding:15px;">
+                <h1 style="font-size: 25pt; text-align: center;">lists</h1>
+                <h2>unordered list</h2>
+                <ul>
+                    <li>boeing 787-9 dreamliner</li>
+                    <ul type="square">
+                        <li>range of 8000 nautical miles</li>
+                        <li>wingspan of 197 ft and 4 inches</li>
+                        <li>quiet engines and air filtration systems</li>
+                    </ul>
+                    <li>airbus a321-neo (new engine option)</li>
+                    <li>boeing 737-800</li>
+                </ul>
+                <h2>ordered list</h2>
+                <ol>
+                    <li>raccoon</li>
+                    <ol type="a">
+                        <li>super cute</li>
+                        <li>no thumbs</li>
+                        <li>can eat fries</li>
+                    </ol>
+                    <li>panda</li>
+                    <li>corgi</li>
+                </ol>
+                <h2>defined list</h2>
+                <dl>
+                    <dt>defined term</dt>
+                    <dd>defined description. this is nice for having a title that is tied to a smaller paragraph</dd>
+                    <dt>second term</dt>
+                    <dd>second descrption. blah blah blah blah</dd>
+                </dl>
+                <h2>detail list</h2>
+                <details>
+                    <summary>what shows when collapsed</summary>
+                    <p>what shows when not collapsed/expand</p>
+                </details>
+                <details>
+                    <summary>second version</summary>
+                    <p>cowabunga! this text is longer!</p>
+                </details>
             </article>
-            <aside>my notes</aside>
+            <aside id="shadow">my notes</aside>
         </main>
-        <footer></footer>
+        <footer id="shadow"><marquee scrollamount="30">thanks for visiting my site :)</marquee></footer>
     </body>
 </html>
