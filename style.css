@@ -28,23 +28,11 @@
 
     article{
         background-color:white;
-        width: 70%;
-        float: left;
+        width: 100%;
         margin: 10px;
         border-radius: 15px;
         text-align:center;
         height: fit-content;
-    }
-
-    aside{
-        height: 150px;
-        background-color:rgb(255, 255, 255);
-        width: 25%;
-        float: right;
-        border-radius: 8px;
-        margin: 10px;
-        padding:7px;
-        text-align: center;
     }
 
     footer{

@@ -1,19 +1,54 @@
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
         <title>lynns html notes | forms</title>
     </head>
     <body>
-        <header>notes page</header>
-        <nav>
+        <header id="shadow">notes page</header>
+        <nav id="shadow">
             <a href="index.html">home</a> | <a href="images.html">images</a> | <a href="tables.html">tables</a> | <a href="lists.html">lists</a> | <a href="color.html">color</a> | <a href="links.html">links</a> | <a href="odds.html">odds</a> | <a href="forms.html">forms</a>
         </nav>
-        <main>
-            <article>
-                <h1>hello world!</h1>
-                <img src="https://t4.ftcdn.net/jpg/00/06/71/23/360_F_6712397_70crK0Bk0F6rttVV1KPhVayEVIJ3mQLj.jpg"></img>
+        <main id="shadow">
+            <article id="shadow">
+                <h1 style="font-size: 25pt;"">forms</h1>
+                <h2>ice cream form!!!</h2>
+                <form action="https://formspree.io/f/xeaoqdok" method="POST">
+                <p>what is your name?<br>
+                    <input type="text" name="personsName" value="type here">
+                </p>
+                <p>what ice cream do you like?<br>
+                    <input type="checkbox" name="iceCream" value="vanilla">vanilla<br>
+                    <input type="checkbox" name="iceCream" value="chocolate">chocolate<br>
+                    <input type="checkbox" name="iceCream" value="strawberry">strawberry<br>
+                    <input type="checkbox" name="iceCream" value="mintChocoChip">mint chocolate chip<br>
+                    <input type="checkbox" name="iceCream" value="birthdayCake">birthday cake<br>
+                    <input type="checkbox" name="iceCream" value="cookiesAndCream">cookies and cream<br>
+                    <input type="checkbox" name="iceCream" value="cookiesAndCream">other<br>
+                </p>
+                <p>what is your favorite topping?<br>
+                    <input type="radio" name="topping" value="sprinkles">sprinkles<br>
+                    <input type="radio" name="topping" value="candy">candy<br>
+                    <input type="radio" name="topping" value="chocolateSyrup">chocolate syrup<br>
+                    <input type="radio" name="topping" value="whippedCream">whipped cream<br>
+                    <input type="radio" name="topping" value="candy">other<br>
+                </p>
+                <p>how do you like your ice cream served?<br>
+                    <select name="serving">
+                    <option value="cone">cone<br>
+                    <option value="cup">cup<br>
+                    <option value="bowl">bowl<br>
+                    <option value="waffle">waffle<br>
+                    <option value="waffle">other<br>
+                    </select>
+                </p>
+                <p>
+                    <input type="submit" value="click here to submit">
+                    <input type="reset" value="click here to reset">
+                </p>
+                </form>
+                <br>
             </article>
-            <aside>my notes</aside>
         </main>
-        <footer></footer>
+        <footer id="shadow"><marquee scrollamount="30">thanks for visiting my site :)</marquee></footer>
     </body>
 </html>
