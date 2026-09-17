@@ -1,5 +1,5 @@
     body{
-        background-color: pink;
+        background: repeating-linear-gradient(to right,#ffc9dd,#ffc9dd 20px,#ffffff 20px,#ffffff 40px);
         font-family: Comic Sans MS;
     }
 
@@ -10,6 +10,7 @@
         font-size: 60px;
         margin: 15px;
         border-radius: 5px;
+        border: 5px solid #ffc9dd;
     }
 
     nav{
@@ -18,11 +19,12 @@
         text-align: center;
         border-radius: 5px;
         margin: 15px;
+        border: 5px solid #ffc9dd;
     }
 
     main{
-        background-color: lightpink;
-        border-radius: 15px;
+        background-color: #ffc9dd;
+        border-radius: 5px;
         display: flex;
     }
 
@@ -30,7 +32,7 @@
         background-color:white;
         width: 100%;
         margin: 10px;
-        border-radius: 15px;
+        border-radius: 5px;
         text-align:center;
         height: fit-content;
     }
@@ -41,14 +43,19 @@
         border-radius: 5px;
         text-align: center;
         height: fit-content;
+        border: 5px solid #ffc9dd;
     }
 
     h1{
-        color: pink;
+        color: #ffb4d0;
+    }
+
+    h2{
+        color: #ffc9dd;
     }
 
     #shadow {
-        box-shadow: 5px 5px 10px 2px rgba(255, 124, 124, 0.3);
+        box-shadow: 5px 5px 10px 2px #ffb7d2;
     }
 
     .text {
@@ -57,7 +64,7 @@
 
     a:link{
         border-radius: 4px;
-        background-color: rgb(255, 226, 231);
+        background-color: #ffe7ef;
         text-decoration: none;
         color: black;
         padding-left: 5pt;
@@ -65,5 +72,9 @@
     }
 
     a:hover{
-        color: pink;
+        color: #ffc9dd;
+    }
+
+    header{
+        color: #ffb4d0;
     }
